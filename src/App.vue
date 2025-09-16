@@ -174,6 +174,8 @@
   }
 
   select {
+    appearance: none;
+    text-align: center;
     background: transparent;
     border: 2px solid #999;
     border-radius: 10px;
@@ -182,7 +184,8 @@
     color: #fff;
     outline: none;
     padding: 6px;
-    position: fixed;
+    position: absolute;
+    top: 10px;
     cursor: pointer;
   }
 
@@ -245,10 +248,9 @@
     select {
       position: relative;
       font-size: 20px;
+      border: 2px solid #999;
       margin: 0 auto;
-      border: none;
-      appearance: none;
-      left: 10px;
+      margin-bottom: 20px;
     }
 
     .container h1 {
