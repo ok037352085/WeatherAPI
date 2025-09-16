@@ -1,0 +1,21 @@
+export const cities = [
+  { name: "臺北市", query: "Taipei" },
+  { name: "新北市", query: "New Taipei" },
+  { name: "桃園市", query: "Taoyuan" },
+  { name: "基隆縣", query: "Keelung" },
+  { name: "新竹縣", query: "Hsinchu County" },
+  { name: "苗栗縣", query: "Miaoli" },
+  { name: "臺中市", query: "Taichung" },
+  { name: "彰化縣", query: "Changhua" },
+  { name: "南投縣", query: "Nantou" },
+  { name: "雲林縣", query: "Yunlin" },
+  { name: "嘉義縣", query: "Chiayi" },
+  { name: "臺南市", query: "Tainan" },
+  { name: "高雄市", query: "Kaohsiung" },
+  { name: "屏東縣", query: "Pingtung" },
+  { name: "宜蘭縣", query: "Yilan" },
+  { name: "花蓮縣", query: "Hualien" },
+  { name: "臺東縣", query: "Taitung" },
+  { name: "澎湖縣", query: "Penghu" },
+  { name: "金門縣", query: "Jincheng" }
+];
