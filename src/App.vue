@@ -3,7 +3,6 @@
   import { cities } from './cities.js'
   import WeatherEffect from './components/WeatherEffect.vue'
 
-  const apiKey = "c37a596c8ab43dc652ecbc768b9e8e1d"
   const selectedCity = ref("")
   const weatherData = ref(null)
   const loading = ref(false)
@@ -44,7 +43,7 @@
     errorMsg.value = ""
 
     try{
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},tw&appid=${apiKey}&units=metric&lang=zh_tw`
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},tw&appid=${import.meta.env.VITE_WEATHER_API_KEY}&units=metric&lang=zh_tw`
       const res = await fetch(url)
 
       if(!res.ok){
